@@ -9,16 +9,11 @@ int search(int arr[], int n, int x)
 		if(arr[i] == x)
 			return i;
 	}
-
 	return -1;
-} 
+}
 
-
-    
-int main() {
-	
+int main()
+{
 	int arr[] = {20, 5, 7, 25}, x = 5;
-
-    cout<<search(arr, 4, x);  
-    
+    cout << search(arr, 4, x);
 }

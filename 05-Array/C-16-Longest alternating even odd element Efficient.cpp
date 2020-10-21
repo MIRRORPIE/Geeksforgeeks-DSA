@@ -25,3 +25,4 @@ int main()
     int arr[] = {5, 10, 20, 6, 3, 8}, n = 6;
     cout<<maxEvenOdd(arr, n);
 }
+

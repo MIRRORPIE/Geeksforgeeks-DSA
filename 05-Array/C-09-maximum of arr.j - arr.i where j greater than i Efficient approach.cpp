@@ -17,6 +17,6 @@ int maxDiff(int arr[], int n)
 
 int main()
 {
-    int arr[] = {2, 3, 4, 1, 5,  10, 6, 4, 8, 1}, n = 7;
+    int arr[] = {2, 3, 4, 1, 5, 10, 6, 4, 8, 1}, n = 7;
     cout<<maxDiff(arr, n);
 }

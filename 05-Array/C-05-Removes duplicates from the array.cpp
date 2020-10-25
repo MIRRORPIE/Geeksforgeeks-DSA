@@ -16,7 +16,8 @@ int remDups(int *arr, int n)
 	return res;
 }
 
-int main() {
+int main() 
+{
     int arr[] = {10, 20, 20, 20, 20, 30, 30, 30}, n = 6;
     cout<<"Before Removal"<<endl;
     for(int i = 0; i < n; i++)
